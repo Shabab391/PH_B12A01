@@ -33,7 +33,7 @@
     font-weight: 700;
     font-size: 16px;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 12px 36px;
 } 
 
@@ -43,12 +43,13 @@
     font-weight: 700;
     font-size: 16px;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 12px 36px;
+    margin: 0px 0px 152px 0px; 
 }
 
 .body{
-    background-image: url("../Assets/Hero-bg.png");
+    background-image: url("../../Assets/Hero-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     }
@@ -58,5 +59,38 @@
     color: #252432;
     font-size: 65px;
     text-align: center;
-
+     /* padding: 309px 0px 152px 0px; */ 
 } 
+
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 116px 150px;
+}
+#wc{
+    border-radius: 50px;
+}
+.action-bold{
+    font-weight: 700;
+    color: #252432;
+    font-size: 42px;
+    text-align: left;
+
+}
+.action-small{
+    font-weight: 400;
+    color: #252432;
+    font-size: 24px;
+    text-align: left;
+}
+
+users{
+    background-color: #000000;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 36px;
+}
