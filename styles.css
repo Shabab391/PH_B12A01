@@ -124,13 +124,16 @@
 }
 .login-container{
     display: flex;
+    font-size: 20px;
+    font-weight: 400;
     justify-content: space-between;
+    align-items: center; 
+    padding-bottom: 71px;
 }
 
 .login-welcome{
     font-size: 97px;
     font-weight: 700;
-
 }
 
 .btn-login{
@@ -143,10 +146,16 @@
     padding: 19px 201px;
 }
 
+.login-inputlabels{
+    font-size:18px;
+    font-weight:500;
+}
+
 .login-input{
-    width: 497px;
-    border: none;
+    border:none;
+    width: 497px; 
     border-radius: 10px;
+    height: 70px;
 }
 
 .foot-main{
@@ -161,8 +170,7 @@
 }
 .foot-d{
     color: #8987A1;
-    /* font-size: 100px;
-    font-weight: 900; */
+
 }
 .foot-c{
     display: flex;
