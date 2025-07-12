@@ -48,7 +48,7 @@
 
 .body{
     background-image: url("Assets/Hero-bg.png");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 50px;
     }
@@ -58,6 +58,7 @@
     color: #252432;
     font-size: 65px;
     text-align: center;
+
 } 
 
 .overall{background-color: #F5F8FF;}
@@ -177,4 +178,13 @@
     justify-content: center;
     gap: 48px;
     color: #8987A1;
+}
+
+
+.btn-banner:hover,
+.btn-login:hover,
+.btn-nav:hover {
+  background-color: orange;
+  transform: scale(1.1);
+  /* transition: all 0.2s ease; */
 }
