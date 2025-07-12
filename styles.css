@@ -188,3 +188,35 @@
   transform: scale(1.1);
   /* transition: all 0.2s ease; */
 }
+
+.review{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 116px 150px; 
+}
+
+
+.review-head{
+  font-size: 42px;
+  font-weight:700;
+  color: #252432;
+  text-align:center;
+}
+.star{
+    display: flex;
+}
+.avatar{display: flex;
+    justify-content:left;
+    gap: 10px;
+ }
+
+.card{
+    background-color:#FAFCFF;
+    border: 2px #F2EDED;
+    box-shadow: 10px 10px 10x  #F2EDED;
+    width:367px;
+    height:243;
+
+}
+#icon{border-radius:500px }
