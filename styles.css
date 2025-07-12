@@ -157,6 +157,7 @@
     width: 497px; 
     border-radius: 10px;
     height: 70px;
+    border: 2px solid #D6DDED;
 }
 
 .foot-main{
@@ -213,10 +214,12 @@
 
 .card{
     background-color:#FAFCFF;
-    border: 2px #F2EDED;
-    box-shadow: 10px 10px 10x  #F2EDED;
+    border: 2px solid #F2EDED;
+    border-radius: 10px;
+    /* box-shadow: 10px 10px 10px 10px #000000; */
     width:367px;
-    height:243;
+    height:243px;
+    padding: 10px;
 
 }
 #icon{border-radius:500px }
